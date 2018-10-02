@@ -23,3 +23,29 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.hadrosaur {
+  position: absolute;
+  top: 170px;
+  left: 10px;
+  transform: rotate(-15deg);
+  padding-left: 6em;
+}
+
+.pteranodon {
+  transform: rotate(5deg);
+  display: inline-block;
+  position: absolute;
+  top: 210px;
+  left: 200px;
+  z-index: 1;
+}
+
+
+.stegosaurus {
+  display: inline-block;
+  position: absolute;
+  top: 160px;
+  left: 290px;
+  transform: rotate(34deg);
+}
