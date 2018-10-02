@@ -32,7 +32,7 @@ html {
   transform: rotate(-15deg);
 }
 
-.polaroid:nth-child(2){
+.polaroid:nth-child(2) {
   transform: rotate(5deg);
   display: inline-block;
   top: 210px;
