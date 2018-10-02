@@ -24,7 +24,7 @@ html {
   text-shadow: 1px 1px 3px #000;
 }
 
-.hadrosaur {
+.polaroid:first-child {
   position: absolute;
   top: 170px;
   left: 10px;
@@ -32,7 +32,7 @@ html {
   padding-left: 6em;
 }
 
-.pteranodon {
+.polaroid:nth-child(2){
   transform: rotate(5deg);
   display: inline-block;
   position: absolute;
@@ -42,7 +42,7 @@ html {
 }
 
 
-.stegosaurus {
+.polaroid:last-child {
   display: inline-block;
   position: absolute;
   top: 160px;
