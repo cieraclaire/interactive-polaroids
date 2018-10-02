@@ -8,6 +8,7 @@ html {
   margin: 0;
   padding: 10px;
   width: 250px;
+  transition: 1s;
 
   background-color: #fff;
   border-radius: 4px;
@@ -27,9 +28,8 @@ html {
 .polaroid:first-child {
   position: absolute;
   top: 170px;
-  left: 10px;
+  left: 100px;
   transform: rotate(-15deg);
-  padding-left: 6em;
 }
 
 .polaroid:nth-child(2){
@@ -41,7 +41,6 @@ html {
   z-index: 1;
 }
 
-
 .polaroid:last-child {
   display: inline-block;
   position: absolute;
@@ -52,5 +51,5 @@ html {
 
 .polaroid:hover {
   z-index: 10;
-  transition: rotate(0);
+  transform: rotate(0);
 }
