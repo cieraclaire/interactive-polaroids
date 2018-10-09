@@ -43,7 +43,7 @@ html {
 .polaroid:last-child {
   display: inline-block;
   top: 160px;
-  left: 290px;
+  left: 230px;
   transform: rotate(34deg);
 }
 
