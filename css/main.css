@@ -26,29 +26,30 @@ html {
   text-shadow: 1px 1px 3px #000;
 }
 
-.polaroid:first-child {
-  top: 170px;
-  left: 100px;
-  transform: rotate(-15deg);
+.polaroid:nth-child(1) {
+  top: 100px;
+  left: 20%;
+  transform: rotate(-11deg);
+  z-index: 15;
 }
 
 .polaroid:nth-child(2) {
-  transform: rotate(5deg);
-  display: inline-block;
-  top: 210px;
-  left: 200px;
-  z-index: 1;
+  transform: rotate(4deg);
+  top: 150px;
+  left: 30%;
+  z-index: 19;
 }
 
-.polaroid:last-child {
+.polaroid:nth-child(3) {
   display: inline-block;
-  top: 160px;
-  left: 230px;
-  transform: rotate(34deg);
+  top: 100px;
+  left: 40%;
+  transform: rotate(25deg);
+  z-index: 18;
 }
 
 .polaroid:hover {
   z-index: 10;
-  transform: rotate(0);
+  transform: rotate(0deg);
   box-shadow: 0 3px 4px 4px;
 }
